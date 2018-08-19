@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">拍照小助手</string>
+    <string name="help">
+        步骤说明：\n
+        1、先选择要保存的地方\n
+        2、选择图片名称和格式\n
+        3、点击拍照，若下图有显示略缩图，再点击保存即可\n\n\n
+
+    </string>
+    <string name="zhuyi">
+
+         小提示：\n
+        1、保存的图片路径建议不要选有 “.” 开头的文件夹，否则图片会被系统默认隐藏\n
+        2、当拍照的图片显示在下方时，可更改路径、名称和格式后，再点击保存依然有效。
+    </string>
+
+</resources>

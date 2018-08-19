@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/subText"
+    android:hint="输入你的建议和想法（必填）"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_below="@+id/subText"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/name"
+        android:hint="名称、联系方式（选填）"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/subBtn"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        android:background="@drawable/btn_control"
+        android:text="提交"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="geshi">
+        <item>JPEG</item>
+        <item>DXF</item>
+        <item>GIF</item>
+        <item>PCX</item>
+        <item>PICI</item>
+        <item>PNG</item>
+        <item>TIFF</item>
+        <item>WEBP</item>
+        <item>WMF</item>
+
+
+    </string-array>
+
+    <string-array name="name">
+        <item>小区门口</item>
+        <item>门口周边环境</item>
+        <item>小区环境（1）</item>
+        <item>小区环境（2）</item>
+        <item>楼宇外观</item>
+        <item>楼宇正门</item>
+        <item>楼宇邮箱</item>
+        <item>房门</item>
+        <item>客厅</item>
+        <item>走廊</item>
+        <item>主卧</item>
+        <item>阳台景观</item>
+        <item>查册表1</item>
+        <item>查册表2</item>
+        <item>查册表3</item>
+        <item>查册表4</item>
+        <item>查册表5</item>
+        <item>查册表6</item>
+        <item>调查表1</item>
+        <item>调查表2</item>
+        <item>委托书</item>
+    </string-array>
+
+</resources>

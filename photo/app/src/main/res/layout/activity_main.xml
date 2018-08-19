@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_recyclerview"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:dividerHeight="10dp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tv_determine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textColor="#00aeff"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:layout_centerVertical="true"
+            android:id="@+id/addFile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/add" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:scrollbars="none"
+        android:layout_below="@+id/ll_head"
+         />
+
+    <LinearLayout
+        android:layout_below="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_no_data"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/item_4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="#999999"
+            android:gravity="center"
+            android:text="没有文件"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
